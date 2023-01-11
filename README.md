@@ -1,5 +1,5 @@
 # Face Mask Detector
-Face mask detector detects real time face mask and determine if someone is present in th frame or not.
+Face mask detector detects real time face mask and determine if someone is present in the frame or not.
 Face mask detection is an application developed in Python to detect face mask. The application is a real time application which can help in pandemic situation like we witnessed during Covid-19 to ensure safety guidelines.
 The technical requirements for the projects are: 
 1. Programming Language: Python
