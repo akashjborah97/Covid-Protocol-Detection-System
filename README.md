@@ -1,17 +1,27 @@
 # Face Mask Detector
 Face mask detector detects real time face mask and determine if someone is present in th frame or not.
 Face mask detection is an application developed in Python to detect face mask. The application is a real time application which can help in pandemic situation like we witnessed during Covid-19 to ensure safety guidelines.
-The technical requirements for the projects are: 1. Programming Language: Python
+The technical requirements for the projects are: 
+1. Programming Language: Python
+
 2. OpenCv
+
 3. Tensorflow/ Keras framework
+
 4. Convolutional Neural Network(transfer learning from MobileNet-v2) 5. Libraries(numpy, imutils, matplotlib, scipy)
-6. Google Colab environment
+
+5. Google Colab environment
 OBJECTIVES:
+
 1. If no person is in the video, it should alert “No Person”.
+
 2. If the person walks in, detect the person
+
 3. Detect the person wearing a mask or not with alerts like “Mask Detected” and “No Mask
 Detected”.
+
 4. If a new person walks in, repeat steps 2 and 3 for him/her.
+
 5. If the two persons are standing close enough, it should alert ”Maintain Social Distancing”.
  
  APPROACH 
