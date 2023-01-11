@@ -71,4 +71,6 @@ SETUP:
 
 2. plot.png shows the performance accuracy and the loss of the mask detector model
 
-3. vedio_detection_of_mask is using opencv to access the camera to recognise faces and detect if the person is wearing a mask or not
+3. face_detector.caffee model detects faces
+
+4. vedio_detection_of_mask.ipynb file uses opencv to access the camera to recognise faces and detect if the person is wearing a mask or not
