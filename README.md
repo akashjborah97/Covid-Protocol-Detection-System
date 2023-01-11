@@ -74,3 +74,5 @@ SETUP:
 3. face_detector folder contains .caffemodel that detects faces
 
 4. vedio_detection_of_mask.ipynb file uses opencv to access the camera to recognise faces and detect if the person is wearing a mask or not
+
+5. face_detection.avi file is a vedio file which shows how the model performs.
