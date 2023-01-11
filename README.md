@@ -24,7 +24,8 @@ Detected”.
 
 5. If the two persons are standing close enough, it should alert ”Maintain Social Distancing”.
  
- APPROACH 
+ APPROACH :
+ 
 Step 1: Installing the dependencies
 
 Step 2: Preparing the dataset
@@ -63,3 +64,11 @@ Step 13: Preparing the primary functions to detect and predict mask which takes 
 Step 14: Face mask detection is performed to capture images from webcam and it captures frames in live video feed. Face mask is detected and showcase the mentioned functionality.
 
 Step 15: The stream of images are written to a file which are processed to make a live video.
+
+SETUP:
+
+1. mask_detector.model is the model which classify if the mask is on or off and the model is trained on a kaggle dataset and the notebookfile is named as face_mask_detector.ipynb
+
+2. plot.png shows the performance accuracy and the loss of the mask detector model
+
+3. vedio_detection_of_mask is using opencv to access the camera to recognise faces and detect if the person is wearing a mask or not
