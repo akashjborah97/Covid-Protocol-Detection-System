@@ -8,9 +8,12 @@ The technical requirements for the projects are:
 
 3. Tensorflow/ Keras framework
 
-4. Convolutional Neural Network(transfer learning from MobileNet-v2) 5. Libraries(numpy, imutils, matplotlib, scipy)
+4. Convolutional Neural Network(transfer learning from MobileNet-v2) 
 
-5. Google Colab environment
+5. Libraries(numpy, imutils, matplotlib, scipy)
+
+6. Google Colab environment
+
 OBJECTIVES:
 
 1. If no person is in the video, it should alert “No Person”.
