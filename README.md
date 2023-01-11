@@ -28,31 +28,31 @@ Detected”.
  
 Step 1: Installing the dependencies
 
-Step 2: Preparing the dataset
+Step 2: Preparing the dataset:
 The dataset was collected from Kaggle. Performed basic data preprocessing steps and arrange the images in the form of two arrays data and labels.
 
-Step 3: Perform one-hot encoding on the labels
+Step 3: Perform one-hot encoding on the labels:
 LabelBinarizer was used to perform one hot encoding of labels
 
-Step 4: Data Augmentation
+Step 4: Data Augmentation:
 Performed data augmentation to increase the diversity of images in our dataset so that the model perform better in new data.
 
-Step 5: Loading the Pre-trained Model
+Step 5: Loading the Pre-trained Model:
 The pertained model MobileNetV2 was loaded as base model and the head of the model was constructed
 
-Step 6: Compiling the model
+Step 6: Compiling the model:
 Adam optimizer was used with learning rate 1e-4 and batch size 32. Loss was measured in Binary cross entropy loss.
 
-Step 7: Training the model
+Step 7: Training the model:
 The model was trained for 20 epoch and generated an accuracy of 0.98 and validation accuracy of 0.99. Loss was found to be 0.04 and validation loss 0.03 by the end of training.
 
-Step 8: Generating Predictions and printing the Classification Report
+Step 8: Generating Predictions and printing the Classification Report:
 Predictions were generated for the test set and when printing the classification report it showed that the model was working fine and ready to be deployed.
 
-Step 9: Plotting the results
+Step 9: Plotting the results:
 The training and loss accuracy was plotted and it showed great results.
 
-Step 10: Saving the model
+Step 10: Saving the model:
 Using Open CV for face detection
 
 Step 11: Loading the face detector model of OpenCv and the mask detector model we developed.
