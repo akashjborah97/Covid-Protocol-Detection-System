@@ -65,7 +65,11 @@ Step 13: Preparing the primary functions to detect and predict mask which takes 
 
 Step 14: Face mask detection is performed to capture images from webcam and it captures frames in live video feed. Face mask is detected and showcase the mentioned functionality.
 
-Step 15: The stream of images are written to a file which are processed to make a live video.
+Step 15: Using OpenCV, it is detected if a person is present in the frame or not. It also allocates "id" to person and wait for him to come back to the frame if he leaves.
+
+Step 16: Using Centroid tracker in OpenCV, we can check if social distancing is maintained. It displays "Maintain Social Distancing" if the distance between the centroid is below the threshold value and "clear" if not.
+
+Step 17: The stream of images are written to a file which are processed to make a live video.
 
 SETUP:
 
@@ -75,6 +79,6 @@ SETUP:
 
 3. face_detector folder contains .caffemodel that detects faces
 
-4. vedio_detection_of_mask.ipynb file uses opencv to access the camera to recognise faces and detect if the person is wearing a mask or not
+4. vedio_detection_of_mask_2_0.ipynb file uses opencv to access the camera to recognise faces and detect if the person is wearing a mask or not. It also allocates id to a person and checks if minimum social distancing is maintained.
 
 5. face_mask_detection.avi is a vedio file which shows how the model performs.
