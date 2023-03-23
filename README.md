@@ -54,7 +54,8 @@ Predictions were generated for the test set and when printing the classification
 Step 9: Plotting the results:
 The training and loss accuracy was plotted and it showed great results.
 
-Step 10: Saving the model:
+Step 10: Saving the model
+
 
 Using Open CV for face detection
 
