@@ -55,6 +55,7 @@ Step 9: Plotting the results:
 The training and loss accuracy was plotted and it showed great results.
 
 Step 10: Saving the model:
+
 Using Open CV for face detection
 
 Step 11: Loading the face detector model from OpenCv and the mask detector model we developed.
