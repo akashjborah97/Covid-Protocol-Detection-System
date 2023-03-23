@@ -67,7 +67,7 @@ Step 14: Face mask detection is performed to capture images from webcam and it c
 
 Step 15: Using OpenCV, it is detected if a person is present in the frame or not. It also allocates "id" to person and wait for him to come back to the frame if he leaves.
 
-Step 16: Using Centroid tracker in OpenCV, we can check if social distancing is maintained. It displays "Maintain Social Distancing" if the distance between the centroid is below the threshold value and "clear" if not.
+Step 16: Using Centroid tracker, we can check if social distancing is maintained or not. It also uses non-max suppression to tackle over-lapping bounding boxes by specifying a overlapping threshold. It displays "Maintain Social Distancing" if the distance between the centroids is below the threshold value and "clear" if not.
 
 Step 17: The stream of images are written to a file which are processed to make a live video.
 
