@@ -57,17 +57,17 @@ The training and loss accuracy was plotted and it showed great results.
 Step 10: Saving the model:
 Using Open CV for face detection
 
-Step 11: Loading the face detector model of OpenCv and the mask detector model we developed.
+Step 11: Loading the face detector model from OpenCv and the mask detector model we developed.
 
 Step 12: Importing extra functions to access Video feed on Colab notebook.
 
-Step 13: Preparing the primary functions to detect and predict mask which takes arguments the frames(i.e. images, face detector and mask detector).
+Step 13: Preparing the primary functions to detect and predict mask which takes 3 arguments: images from the vedio feed,the face detector and the mask detector and returns the face locations and predictions(mask is on or off).
 
 Step 14: Face mask detection is performed to capture images from webcam and it captures frames in live video feed. Face mask is detected and showcase the mentioned functionality.
 
 Step 15: Using OpenCV, it is detected if a person is present in the frame or not. It also allocates "id" to person and wait for him to come back to the frame if he leaves.
 
-Step 16: Using Centroid tracker, we can check if social distancing is maintained or not. It also uses non-max suppression to tackle over-lapping bounding boxes by specifying a overlapping threshold. It displays "Maintain Social Distancing" if the distance between the centroids is below the threshold value and "clear" if not.
+Step 16: Using Centroid tracker, it check if social distancing is maintained or not. It also uses non-max suppression to tackle over-lapping bounding boxes by specifying a overlapping threshold. It displays "Maintain Social Distancing" if the distance between the centroids is below the threshold value and "clear" if not.
 
 Step 17: The stream of images are written to a file which are processed to make a live video.
 
